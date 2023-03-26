@@ -216,7 +216,6 @@ bool select_order(int order)
 {
     bool is_successful = false;
     int choice = 0;
-    bool choice_available = false;
     printf("Secim: ");
     if (scanf("%d", &choice) == 0)
     {
